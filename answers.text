@@ -1,0 +1,44 @@
+//TASK 1- Explaining API
+
+An application programming interface acts as intermediate between two different computer programs.For example - a game can use an api to post score on
+social media.In modern web development, api's helps to adapt changing market demands, improve efficiency. Overall, api's make building apps easier, and
+allow for new and exciting features.
+
+//TASK 1 (2)- Explaining API using analogy
+
+Think of API as remote control for your tv.
+Remote has svereal buttons which controls different functions in a tv. Each button represents a specific command that a tv takes.
+The Tv responds to the commands. Without knowing whats going in the backend, you just press the buttons on the remote and tv reads it.
+So, This is similar to how an API sends requests to a service to get information or perform an action.
+The TV responds to your commands right away, just like an API provides a response after receiving a request.
+
+
+
+
+//TASK 2- GET, POST, PUT, DELETE
+
+GET- the GET method is used to retreive the data from the Server. For example- Retreiving the weather report to fetch the weather data.
+
+POST- The POST method is used to send data to a server to create a new resource. For example- You are on any new website and creating a new account,
+and press submit after filling in the details. The website sends POST request to server to create a new account.
+
+PUT- The PUT method is used to update an existing resource on the server. For example- You want to change your profile picture on INstagram, you upload
+the profile pciture and save changes. The website sends PUT request to server to update the picture.
+
+DELETE- The DELETE method is used to remove a resource from the server. For example- You are on a blogpost website. You clicked delete button to delete
+the blog, the website sends DELETE request to the server to delete the blog.
+
+
+
+
+
+//TASK 5: COMPARING FETCH API AND XMLHTTPREQUEST
+
+Fetch API has simpler Syntax , better CORS handling. It leads to more simpler, readable code. Some of its disadvantages are 
+Fetch only rejects the Promise on network errors, not on HTTP errors (like 404 or 500), which can lead to additional error handling code.
+
+XMLHttpRequest provides Built-in progress monitoring for uploads/downloads. It is supported in all browsers including old browsers.
+Its disadvantages are that it leads to complex code as it is callback based.
+
+One may use Fetch API for simple data retrieval tasks, like fetching JSON from an API.
+Or use XMLHttpRequest for file uploads where progress tracking is needed.
